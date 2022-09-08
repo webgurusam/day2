@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Day 2</title>
+    <link rel="stylesheet" href="css/main.css">
     <style>
         h1 {
             color: #663399;
@@ -15,7 +16,7 @@
             color: rgba(255, 145, 2, 0.452);
         }
 
-        p {
+        .miss {
             color: hsl(180, 100%, 27%);
             height: 150px;
             background-color: aquamarine;
@@ -40,17 +41,52 @@
             background-color: wheat;
             color: orangered;
         }
+
+        .info {
+            background-color: lavender;
+            color: royalblue;
+            border: 2px solid brown;
+            margin: 20px 0 50px;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 50%;
+        }
+
+        .info-title {
+            text-align: center;
+            font-size: 2em;
+            font-family: cursive;
+            font-weight: 400;
+        }
+
+        .author-name {
+            color: violet;
+        }
+
+        .info p {
+            text-align: justify;
+            color: seagreen;
+        }
     </style>
 </head>
 
 <body>
+    <div class="info">
+        <h3 class="info-title">hit song in 2022 - milo milo apsa</h3>
+        <small>Lorem <span class="author-name">ipsum dolor sit amet.</span></small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, magnam harum? Voluptatibus ipsam nesciunt
+            commodi asperiores, doloremque voluptate veniam fugiat dignissimos ea cum explicabo tenetur sed sit corporis
+            eaque! Impedit.</p>
+    </div>
     <h1>this is my heading 1</h1>
+    <h5 style="padding: 0 40px 20px; border-left: 7px solid rgb(250, 128, 114)">My new element in this website</h5>
     <h4 id="bd">Bangladesh</h4>
     <h4 class="all india">India</h4>
     <h4 class="all">pakistan</h4>
 
     <h2>this is my heading 2</h2>
-    <p>this is paragraph text</p>
+    <p class="miss">this is paragraph text</p>
     <small>this is small text</small>
 </body>
 

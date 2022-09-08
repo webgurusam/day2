@@ -1,0 +1,25 @@
+h5 {
+    background-color: teal;
+    color: darkred;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.all {
+    display: inline;
+    margin-right: 20px;
+}
+
+.info small,
+.info span {
+    display: block;
+}
+
+.info small {
+    text-align: right;
+}
+
+.info span {
+    text-align: center;
+}
